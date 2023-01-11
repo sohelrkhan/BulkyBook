@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BulkyBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230102070511_InitialCreateUpdate")]
-    partial class InitialCreateUpdate
+    [Migration("20230102162712_InitialHome")]
+    partial class InitialHome
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
